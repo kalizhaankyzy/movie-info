@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La La Land</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        .product-home{
+            overflow: auto;
+            height: 800px;
+            width: 80%;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.25);
+            color: white;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        .product-home-title{
+            font-family: gotham-bold,sans-serif;
+            font-size: 48px;
+            line-height: 48px;
+            font-weight: 700;
+        }
+        .product-home-text{
+            margin-top: 20px;
+            font-family: gotham-book,sans-serif;
+            font-size: 18px;
+            line-height: 21px;
+            letter-spacing: 1px;
+        }
+        .product-home-content-list a{
+            font-size: 18px;
+            line-height: 19px;
+            letter-spacing: 1.3px;
+            color: yellow;
+        }
+        .PlayButton-border{
+            width: 30%; 
+            background: hsla(0,0%,100%,.2); 
+            opacity: 1; 
+            padding: 2%; 
+            border-radius: 36px; 
+            border: 2px solid hsla(0,0%,100%,.2);
+            background-image: url(ico-play.png);
+            background-repeat: no-repeat;
+            height: 30px;
+            background-position: center;
+        }
+        .PlayButton-border:hover{
+            background-color: white;
+            background-image: url(ico-play-ro.png);
+            cursor: pointer;
+        }
+        .product-about-title{
+            font-size: 18px;
+            line-height: 16px;
+            font-weight: 600;
+        }
+        .product-about-text{
+            margin-top: 10%;
+            font-size: 21px;
+            line-height: 30px;
+        }
+        .product-about-text1{
+            margin-top: 20px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .product-about-text2{
+            font-size: 16px;
+            line-height: 16px;
+            margin-top: 7%;
+        }
+        .product-cast-title a{
+            font-size: 20px;
+            line-height: 16px;
+            letter-spacing: 1px;
+            color: yellow;
+        }
+        .product-cast-items{
+            margin-top: 10%;
+            font-size: 18px;
+            line-height: 28px;
+            list-style: none; 
+        }
+        table{
+            border: 1px solid white;
+            margin: 0 auto;
+            width: 300px;
+        }
+        th, td{
+            padding: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="product-home">
+        <div class="product-home-content" style="height: 400px; padding: 8% 5% ; display: flex;">
+            <div style="flex: 50%;">    
+                <div class="product-home-title">
+                    <span>LA LA LAND</span>
+                </div>
+                <div class="product-home-text">
+                    <span>Available Now on 4K Ultra HD™, Blu-ray™, DVD, and Digital</span>
+                </div>
+                <div class="PlayButton" style="margin-top: 10%;">
+                    <div class="PlayButton-wrapper">
+                        <a href="/lab3/page3.html"><div class="PlayButton-border"></div></a>
+                        <div class="PlayButton-text" style="width: 35%; text-align: center;"><span>Watch Trailer</span></div>
+                    </div>
+                </div>
+                <div class="product-home-content-list" style="margin-top:20%;">
+                    <a href="#product-about">About LA LA LAND</a><br>
+                </div>
+                <div class="product-home-content-list" style="margin-top:3%;">
+                    <a href="#product-cast">Cast</a>
+                </div>
+            </div>
+            <div style="flex: 50%;">
+                <div>
+                    <img src="https://lionsgate.brightspotcdn.com/bf/d2/306cfd60415fa6f98f9f1280a3dd/lalaland-movies-he-poster-01.jpg"  width="50%"  style="margin-left:50%">
+                </div>
+            </div>
+        </div>
+        <div class="product-about" id="product-about" style="padding: 7% 5% 5% 5%; display: flex;">
+            <div style="flex: 50%;">
+                <div>
+                    <img src="https://lionsgate.brightspotcdn.com/e7/9b/4fafb2cc4040aa7da700b6c27e39/la-la-land-movies-about-02.jpg"  width="100%">
+                </div>
+            </div>
+            <div style="flex: 50%; padding: 3% 5%;" >    
+                <div class="product-about-title" >
+                    <span>About LA LA LAND</span>
+                </div>
+                <div class="product-about-text">
+                    <span>Winner of 6 Academy Awards® including Best Director for writer-director Damien Chazelle, and winner of a record-breaking 7 Golden Globe® awards, LA LA LAND is more than the most acclaimed movie of the year—it’s a cinematic treasure for the ages that you’ll fall in love with again and again.</span>
+                </div>
+                <div class="product-about-text1">
+                    <span>Emma Stone and Ryan Gosling star as Mia and Sebastian, an actress and a jazz musician pursuing their Hollywood dreams—and finding each other—in a vibrant celebration of hope, dreams, and love.</span>
+                </div>
+                <div class="product-about-text2">
+                    <span><strong style="font-weight:700px">Release date:</strong> December 09 2016</span>
+                </div>
+            </div>
+        </div>
+        <div class="product-cast-content" id="product-cast" style="padding: 0% 5%; display: flex;">
+            <div style="flex: 50%;padding: 5%;">
+                <div class="product-cast-title">
+                    <i class='fa fa-angle-right' style='color:yellow; font-size: 20px; margin-right: 5px;'></i><a href="/lab3/page2.html">Cast</a>
+                </div>
+                <div class="product-cast-items">
+                    <li>Ryan Gosling</li>
+                    <li>Emma Stone</li>
+                    <li>John Legend</li>
+                    <li>Rosemarie DeWitt</li>
+                    <li>Finn Wittrock</li>
+                    <li>Callie Hernandez</li>
+                    <li>Sonoya Mizuno</li>
+                    <li>Jessica Rothe</li>
+                    <li>Tom Everett Scott</li>
+                    <li>Josh Pence</li>
+                    <li>J.K. Simmons</li>
+                </div>
+            </div>
+            <div style="flex: 50%;">
+                <div>
+                    <img src="https://lionsgate.brightspotcdn.com/91/aa/8bdc94bb4f05ab14c6bc4b0f2cdb/la-la-land-movies-about-01.jpg"  width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="product-info" style="padding: 5%; display: flex;">
+            <div style="flex: 50%;">
+                <div>
+                    <img src="https://lionsgate.brightspotcdn.com/4d/8a/3afcb8d64e60b34f60fad72aae67/la-la-land-movies-gallery-09.jpg" width="100%">
+                </div>
+            </div>
+            <div style="flex: 50%;">
+                <table>
+                    <tr>
+                        <th>Directed by</th>
+                        <td>Damien Chazelle</td>
+                    </tr>
+                    <tr>
+                        <th>Written by</th>
+                        <td>Damien Chazelle</td>
+                    </tr>
+                    <tr>
+                        <th>Produced by</th>
+                        <td>Fred Berger <br>
+                            Jordan Horowitz<br>
+                            Gary Gilbert<br>
+                            Marc Platt</td>
+                    </tr>
+                    <tr>
+                        <th>Cinematography</th>
+                        <td>Linus Sandgren</td>
+                    </tr>
+                    <tr>
+                        <th>Edited by</th>
+                        <td>Tom Cross</td>
+                    </tr>
+                    <tr>
+                        <th>Music by</th>
+                        <td>Justin Hurwitz</td>
+                    </tr>
+                    <tr>
+                        <th>Distributed by</th>
+                        <td>Lionsgate</td>
+                    </tr>
+                    <tr>
+                        <th>Running time</th>
+                        <td>128 minutes</td>
+                    </tr>
+                    <tr>
+                        <th>Budget</th>
+                        <td>$30 million</td>
+                    </tr>
+                    <tr>
+                        <th>Box office</th>
+                        <td>$448.9 million</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+    </div>
+    <div class="background" style="position: absolute; left:0; top:0; z-index: -1;">
+        <img src="https://lionsgate.brightspotcdn.com/d8/19/5d5ddb4748abb51ac05244fdb10c/la-la-land-movies-backgroundimages-01.jpg" width="100%">
+    </div>
+</body>
+</html>
